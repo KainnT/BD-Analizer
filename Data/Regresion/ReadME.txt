@@ -1,0 +1,1 @@
+It both cases the variable to predict is "precio"
