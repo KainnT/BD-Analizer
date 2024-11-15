@@ -52,7 +52,7 @@ from sklearn.model_selection import KFold
 warnings.filterwarnings("ignore")
 #________________________________________________________________________________________
 
-# Preparacion para la serie de tiempo
+# Time series preparation
 
 def prepa_series(df_series, date_column, pred_column, frequency):
     df_series[pred_column] = df_series[pred_column].astype(float)
@@ -74,7 +74,7 @@ def prepa_series(df_series, date_column, pred_column, frequency):
     return series_result
 
 #________________________________________________________________________________________
-# Modelos series de tiempo
+# Time series Forecast models
 
 class ts_error:
     def __init__(self, preds, real, nombres=None):
@@ -195,7 +195,7 @@ class TimeSeriesModel:
 
 #________________________________________________________________________________________
 
-# Modelos No supervisados 
+# Unsupervised learning models 
 
 class NoSupervisados:
     def __init__(self, df, n_componentes=2, n_clusters = 3):
@@ -403,7 +403,7 @@ class NoSupervisados:
 
 #________________________________________________________________________________________
 
-# Modelos Supervisados
+# # Supervised learning models 
 
 class PrediccionBase:
     def __init__(self, datos):
@@ -896,7 +896,7 @@ print(benchmark.modelo)
 
 #________________________________________________________________________________________
 
-# Modelos Regresion 
+# Regression Models
 def ResVarPred(VarPred): 
   Cuartil = statistics.quantiles(VarPred)
   val_max = np.max(VarPred)
@@ -907,7 +907,7 @@ def ResVarPred(VarPred):
 
 
 
-# Modifique la clase PredictPy para que mida el RMSE
+
 
 class Analisis_Predictivo:
     def __init__(self, datos: pd.DataFrame, predecir: str, predictoras=None, 
@@ -1158,7 +1158,7 @@ class Benchmark_regresion:
 
 # __________________________________________________________________________________________
 
-
+# Deep Learning Models
 
 class PrediccionBaseN:
     def __init__(self, datos):
