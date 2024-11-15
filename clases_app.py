@@ -74,6 +74,7 @@ def prepa_series(df_series, date_column, pred_column, frequency):
     return series_result
 
 #________________________________________________________________________________________
+
 # Time series Forecast models
 
 class ts_error:
@@ -403,7 +404,7 @@ class NoSupervisados:
 
 #________________________________________________________________________________________
 
-# # Supervised learning models 
+# Supervised learning models 
 
 class PrediccionBase:
     def __init__(self, datos):
@@ -897,6 +898,7 @@ print(benchmark.modelo)
 #________________________________________________________________________________________
 
 # Regression Models
+
 def ResVarPred(VarPred): 
   Cuartil = statistics.quantiles(VarPred)
   val_max = np.max(VarPred)
