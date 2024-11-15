@@ -59,8 +59,8 @@ BD-Analizer/
 ├── app.py               # Main application file
 ├── clases_app.py        # Custom classes for processing and models
 ├── requirements.txt     # Python dependencies
-├── static/              # Static files (e.g., CSS, JS, images)
-├── templates/           # HTML templates (if needed)
+├── Data/                # Datasets
+├── Assets/              # Pictures of the application
 └── README.md            # Documentation
 ```
 
