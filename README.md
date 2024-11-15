@@ -22,7 +22,7 @@
 ```plaintext
 - Python (Shiny for Python)
 - Pandas, Numpy
-- Scipy, Sklearn
+- Scipy, Sklearn, TensorFlow, Keras
 - Matplotlib, Plotly, Seaborn
 - MySQL Connector, SQLAlchemy
 ```
