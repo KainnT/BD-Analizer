@@ -1,7 +1,3 @@
-Here’s a detailed `README.md` file with syntax highlighting for your project:
-
----
-
 # BD Analizer
 
 **BD Analizer** is a Python-based Shiny web application for data analysis and visualization. This app allows users to load data from CSV files or SQL databases and perform various analyses, including clustering, time series forecasting, classification, regression, and deep learning. It also provides dynamic visualizations and benchmarking.
@@ -36,7 +32,7 @@ Here’s a detailed `README.md` file with syntax highlighting for your project:
 ## **Installation**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/BD-Analizer.git
+   git clone https://github.com/KainnT/BD-Analizer.git
    cd BD-Analizer
    ```
 
