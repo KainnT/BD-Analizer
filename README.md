@@ -43,14 +43,9 @@
 
 3. Run the application:
    ```bash
-   shiny run app.py
+   shiny run --reload --launch-browser --port=0 app.py
    ```
-
-4. Open your browser and navigate to:
-   ```plaintext
-   http://127.0.0.1:8000
-   ```
-
+   
 ---
 
 ## **File Structure**
