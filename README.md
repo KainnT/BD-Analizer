@@ -55,7 +55,7 @@ BD-Analizer/
 ├── clases_app.py        # Custom classes for processing and models
 ├── requirements.txt     # Python dependencies
 ├── Data/                # Datasets
-├── Assets/              # Pictures of the application
+├── Assets/              # Images of the app
 └── README.md            # Documentation
 ```
 
