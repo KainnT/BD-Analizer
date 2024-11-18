@@ -884,9 +884,9 @@ class Benchmark_supervisados:
 '''    
     
 datos_s = pd.read_csv(
-    "C://Users//axels//Desktop//datasets//Clasificacion//potabilidad_V2.csv",delimiter=',',decimal=".",index_col=0)
+    "C://xxx//xxx//xxx//xxx//xxx//potabilidad_V2.csv",delimiter=',',decimal=".",index_col=0)
 
-df_s =  pd.read_csv("C://Users//axels//Desktop//datasets//Clasificacion//diabetes_V2.csv", delimiter = ',', decimal = ".", index_col=0)
+df_s =  pd.read_csv("C://xxx//xxx//xxx//xxx//xxx//diabetes_V2.csv", delimiter = ',', decimal = ".", index_col=0)
     
     
 benchmark = Benchmark_supervisados(datos_s, "Cross-Validation", n_splits= 2)
